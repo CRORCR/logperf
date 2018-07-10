@@ -1,0 +1,1789 @@
+INFO [07-05|10:44:23] Maximum peer count                       ETH=25 LES=0 total=25
+DEBUG[07-05|10:44:23] FS scan times                            list=1ms set=0s diff=0s
+INFO [07-05|10:44:23] Starting peer-to-peer node               instance=Geth/MyNodeName/v1.8.11-unstable/windows-amd64/go1.10.2
+INFO [07-05|10:44:23] Allocated cache and file handles         database=D:\\blockchain\\chaindata\\geth\\chaindata cache=768 handles=1024
+INFO [07-05|10:44:23] Initialised chain configuration          config="{ChainID: 72 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Engine: unknown}"
+INFO [07-05|10:44:23] Disk storage enabled for ethash caches   dir=D:\\blockchain\\chaindata\\geth\\ethash count=3
+INFO [07-05|10:44:23] Disk storage enabled for ethash DAGs     dir=C:\\Users\\ThinkPad\\AppData\\Ethash    count=2
+INFO [07-05|10:44:23] Initialising Ethereum protocol           versions="[63 62]" network=72
+INFO [07-05|10:44:23] Loaded most recent local header          number=0 hash=162af0…8c103b td=4194304
+INFO [07-05|10:44:23] Loaded most recent local full block      number=0 hash=162af0…8c103b td=4194304
+INFO [07-05|10:44:23] Loaded most recent local fast block      number=0 hash=162af0…8c103b td=4194304
+DEBUG[07-05|10:44:23] Reinjecting stale transactions           count=0
+INFO [07-05|10:44:23] Regenerated local transaction journal    transactions=0 accounts=0
+DEBUG[07-05|10:44:23] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [07-05|10:44:23] Starting P2P networking 
+INFO [07-05|10:44:23] RLPx listener up                         self="enode://23a28908c19a41b1831b91ef33ff8964ddc52dcde5993bf7127cee6ddde572f8a69e2df231ebfe48188f5a1bb612da1355e74add42aaedd5d823c2409abedcb4@[::]:30303?discport=0"
+DEBUG[07-05|10:44:25] Couldn't add port mapping                proto=tcp extport=30303 intport=30303 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[07-05|10:44:25] Couldn't add port mapping                proto=udp extport=30303 intport=30303 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[07-05|10:44:25] Found seed node in database              id=4f554827437825cc addr=192.168.3.123:30303 age=425210h44m25.3475431s
+DEBUG[07-05|10:44:25] InProc registered                        service=&{node:0xc042097180} namespace=admin
+INFO [07-05|10:44:25] sengPongTime                             to=4f554827437825cc nowTime=1530758665349
+INFO [07-05|10:44:25] WritePingTime                            TO=4f554827437825cc NowTime=1530758665350
+DEBUG[07-05|10:44:25] InProc registered                        service=&{node:0xc042097180} namespace=admin
+TRACE[07-05|10:44:25] >> PONG/v4                               addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:25] << PING/v4                               addr=192.168.3.123:30303 err=nil
+DEBUG[07-05|10:44:25] InProc registered                        service="&{mu:{state:0 sema:0} cpuW:<nil> cpuFile: traceW:<nil> traceFile:}" namespace=debug
+TRACE[07-05|10:44:25] >> PING/v4                               addr=192.168.3.123:30303 err=nil
+DEBUG[07-05|10:44:25] InProc registered                        service=&{node:0xc042097180}                                                 namespace=debug
+DEBUG[07-05|10:44:25] InProc registered                        service=&{stack:0xc042097180}                                                namespace=web3
+DEBUG[07-05|10:44:25] InProc registered                        service=&{b:0xc042365740}                                                    namespace=eth
+DEBUG[07-05|10:44:25] InProc registered                        service=&{b:0xc042365740}                                                    namespace=eth
+DEBUG[07-05|10:44:25] InProc registered                        service="&{b:0xc042365740 nonceLock:0xc0421aedf0}"                           namespace=eth
+DEBUG[07-05|10:44:25] InProc registered                        service=&{b:0xc042365740}                                                    namespace=txpool
+DEBUG[07-05|10:44:25] InProc registered                        service=&{b:0xc042365740}                                                    namespace=debug
+DEBUG[07-05|10:44:25] InProc registered                        service=&{b:0xc042365740}                                                    namespace=debug
+DEBUG[07-05|10:44:25] InProc registered                        service=&{am:0xc0421fb110}                                                   namespace=eth
+DEBUG[07-05|10:44:25] InProc registered                        service="&{am:0xc0421fb110 nonceLock:0xc0421aedf0 b:0xc042365740}"           namespace=personal
+DEBUG[07-05|10:44:25] InProc registered                        service=&{e:0xc04232c380}                                                    namespace=eth
+DEBUG[07-05|10:44:25] InProc registered                        service="&{e:0xc04232c380 agent:0xc0420a5b80}"                               namespace=eth
+DEBUG[07-05|10:44:25] InProc registered                        service="&{d:0xc04229a340 mux:0xc0422db920 installSyncSubscription:0xc042412b40 uninstallSyncSubscription:0xc042412ba0}" namespace=eth
+DEBUG[07-05|10:44:25] InProc registered                        service=&{e:0xc04232c380}                                                                                                namespace=miner
+DEBUG[07-05|10:44:25] InProc registered                        service="&{backend:0xc042365740 mux:0xc0422db920 quit:<nil> chainDb:0xc0422bf080 events:0xc04206d040 filtersMu:{state:0 sema:0} filters:map[]}" namespace=eth
+DEBUG[07-05|10:44:25] InProc registered                        service=&{eth:0xc04232c380}                                                                                                                     namespace=admin
+DEBUG[07-05|10:44:25] InProc registered                        service=&{eth:0xc04232c380}                                                                                                                     namespace=debug
+DEBUG[07-05|10:44:25] InProc registered                        service="&{config:0xc0421e8180 eth:0xc04232c380}"                                                                                               namespace=debug
+DEBUG[07-05|10:44:25] InProc registered                        service="&{net:0xc042097900 networkVersion:72}"                                                                                                 namespace=net
+DEBUG[07-05|10:44:25] IPC registered                           namespace=admin
+DEBUG[07-05|10:44:25] IPC registered                           namespace=admin
+INFO [07-05|10:44:25] GotReply                                 ptype=2 FROM=4f554827437825cc NowTime=1530758665353
+TRACE[07-05|10:44:25] << PONG/v4                               addr=192.168.3.123:30303 err=nil
+DEBUG[07-05|10:44:25] IPC registered                           namespace=debug
+DEBUG[07-05|10:44:25] IPC registered                           namespace=debug
+DEBUG[07-05|10:44:25] IPC registered                           namespace=web3
+DEBUG[07-05|10:44:25] IPC registered                           namespace=eth
+DEBUG[07-05|10:44:25] IPC registered                           namespace=eth
+DEBUG[07-05|10:44:25] IPC registered                           namespace=eth
+DEBUG[07-05|10:44:25] IPC registered                           namespace=txpool
+DEBUG[07-05|10:44:25] IPC registered                           namespace=debug
+DEBUG[07-05|10:44:25] IPC registered                           namespace=debug
+DEBUG[07-05|10:44:25] IPC registered                           namespace=eth
+DEBUG[07-05|10:44:25] IPC registered                           namespace=personal
+INFO [07-05|10:44:25] sengPongTime                             to=4f554827437825cc nowTime=1530758665354
+DEBUG[07-05|10:44:25] IPC registered                           namespace=eth
+DEBUG[07-05|10:44:25] IPC registered                           namespace=eth
+DEBUG[07-05|10:44:25] IPC registered                           namespace=eth
+DEBUG[07-05|10:44:25] IPC registered                           namespace=miner
+DEBUG[07-05|10:44:25] IPC registered                           namespace=eth
+DEBUG[07-05|10:44:25] IPC registered                           namespace=admin
+DEBUG[07-05|10:44:25] IPC registered                           namespace=debug
+TRACE[07-05|10:44:25] >> PONG/v4                               addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:25] GotReply                                 ptype=1 FROM=4f554827437825cc NowTime=1530758665355
+TRACE[07-05|10:44:25] << PING/v4                               addr=192.168.3.123:30303 err=nil
+DEBUG[07-05|10:44:25] IPC registered                           namespace=debug
+DEBUG[07-05|10:44:25] IPC registered                           namespace=net
+DEBUG[07-05|10:44:25] Found seed node in database              id=4f554827437825cc addr=192.168.3.123:30303 age=355.5436ms
+INFO [07-05|10:44:25] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758665355
+INFO [07-05|10:44:25] IPC endpoint opened                      url=\\\\.\\pipe\\geth.ipc
+DEBUG[07-05|10:44:25] HTTP registered                          namespace=web3
+DEBUG[07-05|10:44:25] HTTP registered                          namespace=eth
+DEBUG[07-05|10:44:25] HTTP registered                          namespace=eth
+DEBUG[07-05|10:44:25] HTTP registered                          namespace=eth
+DEBUG[07-05|10:44:25] HTTP registered                          namespace=eth
+DEBUG[07-05|10:44:25] HTTP registered                          namespace=eth
+DEBUG[07-05|10:44:25] HTTP registered                          namespace=eth
+TRACE[07-05|10:44:25] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+DEBUG[07-05|10:44:25] HTTP registered                          namespace=eth
+DEBUG[07-05|10:44:25] HTTP registered                          namespace=eth
+DEBUG[07-05|10:44:25] HTTP registered                          namespace=net
+INFO [07-05|10:44:25] HTTP endpoint opened                     url=http://0.0.0.0:8545   cors=* vhosts=localhost
+INFO [07-05|10:44:25] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758665359
+TRACE[07-05|10:44:25] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:25] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=1
+INFO [07-05|10:44:25] WritePingTime                            TO=1f393dc4d8178440 NowTime=1530758665856
+INFO [07-05|10:44:25] WritePingTime                            TO=14055bc410ec7242 NowTime=1530758665856
+INFO [07-05|10:44:25] WritePingTime                            TO=f191c725fae43cc4 NowTime=1530758665856
+INFO [07-05|10:44:25] WritePingTime                            TO=bcd88428d6dc0d15 NowTime=1530758665857
+INFO [07-05|10:44:25] WritePingTime                            TO=4d0df50899bc6f3c NowTime=1530758665857
+INFO [07-05|10:44:25] WritePingTime                            TO=fc406ef44ba4b638 NowTime=1530758665857
+TRACE[07-05|10:44:25] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:25] >> PING/v4                               addr=192.168.3.109:30303 err=nil
+INFO [07-05|10:44:25] WritePingTime                            TO=4f554827437825cc NowTime=1530758665857
+TRACE[07-05|10:44:25] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:25] >> PING/v4                               addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:25] sengPongTime                             to=23a28908c19a41b1 nowTime=1530758665859
+TRACE[07-05|10:44:25] >> PING/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:25] >> PING/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:25] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:25] >> PONG/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:25] << PING/v4                               addr=192.168.3.98:30303  err=nil
+INFO [07-05|10:44:25] GotReply                                 ptype=2 FROM=f191c725fae43cc4 NowTime=1530758665861
+TRACE[07-05|10:44:25] << PONG/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:25] sengPongTime                             to=f191c725fae43cc4 nowTime=1530758665861
+TRACE[07-05|10:44:25] >> PONG/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:25] GotReply                                 ptype=1 FROM=f191c725fae43cc4 NowTime=1530758665862
+TRACE[07-05|10:44:25] << PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:25] << PONG/v4                               addr=192.168.3.100:30303 err="unsolicited reply"
+INFO [07-05|10:44:25] sengPongTime                             to=23a28908c19a41b1 nowTime=1530758665863
+TRACE[07-05|10:44:25] >> PONG/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:25] << PING/v4                               addr=192.168.3.98:30303  err=nil
+INFO [07-05|10:44:25] GotReply                                 ptype=2 FROM=4f554827437825cc NowTime=1530758665865
+TRACE[07-05|10:44:25] << PONG/v4                               addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:25] << PONG/v4                               addr=192.168.3.98:30303  err="unsolicited reply"
+TRACE[07-05|10:44:25] << PONG/v4                               addr=192.168.3.100:30303 err="unsolicited reply"
+TRACE[07-05|10:44:25] << PONG/v4                               addr=192.168.3.98:30303  err="unsolicited reply"
+DEBUG[07-05|10:44:26] FS scan times                            list=0s  set=0s diff=0s
+INFO [07-05|10:44:26] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:26] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:26] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:26] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:26] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:26] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758666365
+TRACE[07-05|10:44:26] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:26] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758666369
+TRACE[07-05|10:44:26] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:26] WritePingTime                            TO=f191c725fae43cc4 NowTime=1530758666609
+TRACE[07-05|10:44:26] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:26] GotReply                                 ptype=2 FROM=f191c725fae43cc4 NowTime=1530758666612
+TRACE[07-05|10:44:26] << PONG/v4                               addr=192.168.3.100:30303 err=nil
+DEBUG[07-05|10:44:26] Revalidated node                         b=15 id=f191c725fae43cc4
+TRACE[07-05|10:44:26] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=1
+INFO [07-05|10:44:26] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758666865
+INFO [07-05|10:44:26] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758666865
+TRACE[07-05|10:44:26] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:26] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:26] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758666869
+TRACE[07-05|10:44:26] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:26] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758666870
+TRACE[07-05|10:44:26] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:27] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=1
+TRACE[07-05|10:44:27] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=2
+INFO [07-05|10:44:27] WritePingTime                            TO=fc406ef44ba4b638 NowTime=1530758667366
+INFO [07-05|10:44:27] WritePingTime                            TO=4f554827437825cc NowTime=1530758667366
+INFO [07-05|10:44:27] WritePingTime                            TO=4d0df50899bc6f3c NowTime=1530758667366
+INFO [07-05|10:44:27] WritePingTime                            TO=1f393dc4d8178440 NowTime=1530758667366
+INFO [07-05|10:44:27] WritePingTime                            TO=14055bc410ec7242 NowTime=1530758667367
+INFO [07-05|10:44:27] WritePingTime                            TO=bcd88428d6dc0d15 NowTime=1530758667367
+INFO [07-05|10:44:27] WritePingTime                            TO=f191c725fae43cc4 NowTime=1530758667367
+TRACE[07-05|10:44:27] >> PING/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:27] >> PING/v4                               addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:27] >> PING/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:27] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:27] >> PING/v4                               addr=192.168.3.109:30303 err=nil
+INFO [07-05|10:44:27] sengPongTime                             to=23a28908c19a41b1 nowTime=1530758667368
+TRACE[07-05|10:44:27] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:27] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:27] >> PONG/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:27] << PING/v4                               addr=192.168.3.98:30303  err=nil
+INFO [07-05|10:44:27] sengPongTime                             to=23a28908c19a41b1 nowTime=1530758667369
+TRACE[07-05|10:44:27] >> PONG/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:27] << PING/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:27] << PONG/v4                               addr=192.168.3.98:30303  err="unsolicited reply"
+INFO [07-05|10:44:27] GotReply                                 ptype=2 FROM=4f554827437825cc NowTime=1530758667372
+TRACE[07-05|10:44:27] << PONG/v4                               addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:27] GotReply                                 ptype=2 FROM=f191c725fae43cc4 NowTime=1530758667372
+TRACE[07-05|10:44:27] << PONG/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:27] << PONG/v4                               addr=192.168.3.98:30303  err="unsolicited reply"
+TRACE[07-05|10:44:27] << PONG/v4                               addr=192.168.3.100:30303 err="unsolicited reply"
+TRACE[07-05|10:44:27] << PONG/v4                               addr=192.168.3.100:30303 err="unsolicited reply"
+INFO [07-05|10:44:27] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:27] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:27] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:27] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:27] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:27] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758667873
+INFO [07-05|10:44:27] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758667873
+TRACE[07-05|10:44:27] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:27] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:27] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758667877
+TRACE[07-05|10:44:27] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:27] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758667878
+TRACE[07-05|10:44:27] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:28] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=1
+INFO [07-05|10:44:28] WritePingTime                            TO=14055bc410ec7242 NowTime=1530758668373
+INFO [07-05|10:44:28] WritePingTime                            TO=1f393dc4d8178440 NowTime=1530758668373
+INFO [07-05|10:44:28] WritePingTime                            TO=bcd88428d6dc0d15 NowTime=1530758668374
+INFO [07-05|10:44:28] WritePingTime                            TO=4f554827437825cc NowTime=1530758668374
+INFO [07-05|10:44:28] WritePingTime                            TO=fc406ef44ba4b638 NowTime=1530758668374
+INFO [07-05|10:44:28] WritePingTime                            TO=4d0df50899bc6f3c NowTime=1530758668374
+TRACE[07-05|10:44:28] >> PING/v4                               addr=192.168.3.109:30303 err=nil
+TRACE[07-05|10:44:28] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:28] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=1
+TRACE[07-05|10:44:28] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:28] >> PING/v4                               addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:28] sengPongTime                             to=23a28908c19a41b1 nowTime=1530758668375
+TRACE[07-05|10:44:28] >> PING/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:28] >> PING/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:28] >> PONG/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:28] << PING/v4                               addr=192.168.3.98:30303  err=nil
+INFO [07-05|10:44:28] GotReply                                 ptype=2 FROM=4f554827437825cc NowTime=1530758668376
+TRACE[07-05|10:44:28] << PONG/v4                               addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:28] sengPongTime                             to=23a28908c19a41b1 nowTime=1530758668376
+TRACE[07-05|10:44:28] >> PONG/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:28] << PING/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:28] << PONG/v4                               addr=192.168.3.98:30303  err="unsolicited reply"
+TRACE[07-05|10:44:28] << PONG/v4                               addr=192.168.3.100:30303 err="unsolicited reply"
+TRACE[07-05|10:44:28] << PONG/v4                               addr=192.168.3.98:30303  err="unsolicited reply"
+TRACE[07-05|10:44:28] << PONG/v4                               addr=192.168.3.100:30303 err="unsolicited reply"
+INFO [07-05|10:44:28] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:28] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:28] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:28] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:28] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:28] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758668876
+INFO [07-05|10:44:28] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758668876
+TRACE[07-05|10:44:28] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:28] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:28] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758668880
+TRACE[07-05|10:44:28] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:28] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758668881
+TRACE[07-05|10:44:28] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+DEBUG[07-05|10:44:29] FS scan times                            list=0s  set=0s diff=0s
+TRACE[07-05|10:44:29] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=2
+TRACE[07-05|10:44:29] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=1
+INFO [07-05|10:44:29] WritePingTime                            TO=4f554827437825cc NowTime=1530758669377
+INFO [07-05|10:44:29] WritePingTime                            TO=fc406ef44ba4b638 NowTime=1530758669377
+INFO [07-05|10:44:29] WritePingTime                            TO=bcd88428d6dc0d15 NowTime=1530758669377
+INFO [07-05|10:44:29] WritePingTime                            TO=f191c725fae43cc4 NowTime=1530758669377
+INFO [07-05|10:44:29] WritePingTime                            TO=14055bc410ec7242 NowTime=1530758669378
+INFO [07-05|10:44:29] WritePingTime                            TO=4d0df50899bc6f3c NowTime=1530758669378
+TRACE[07-05|10:44:29] >> PING/v4                               addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:29] >> PING/v4                               addr=192.168.3.98:30303  err=nil
+INFO [07-05|10:44:29] WritePingTime                            TO=1f393dc4d8178440 NowTime=1530758669378
+TRACE[07-05|10:44:29] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:29] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:29] >> PING/v4                               addr=192.168.3.109:30303 err=nil
+TRACE[07-05|10:44:29] >> PING/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:29] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:29] sengPongTime                             to=23a28908c19a41b1 nowTime=1530758669379
+TRACE[07-05|10:44:29] >> PONG/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:29] << PING/v4                               addr=192.168.3.98:30303  err=nil
+INFO [07-05|10:44:29] sengPongTime                             to=23a28908c19a41b1 nowTime=1530758669380
+TRACE[07-05|10:44:29] >> PONG/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:29] << PING/v4                               addr=192.168.3.98:30303  err=nil
+INFO [07-05|10:44:29] GotReply                                 ptype=2 FROM=4f554827437825cc NowTime=1530758669382
+TRACE[07-05|10:44:29] << PONG/v4                               addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:29] << PONG/v4                               addr=192.168.3.98:30303  err="unsolicited reply"
+INFO [07-05|10:44:29] GotReply                                 ptype=2 FROM=f191c725fae43cc4 NowTime=1530758669383
+TRACE[07-05|10:44:29] << PONG/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:29] << PONG/v4                               addr=192.168.3.98:30303  err="unsolicited reply"
+TRACE[07-05|10:44:29] << PONG/v4                               addr=192.168.3.100:30303 err="unsolicited reply"
+TRACE[07-05|10:44:29] << PONG/v4                               addr=192.168.3.100:30303 err="unsolicited reply"
+INFO [07-05|10:44:29] WritePingTime                            TO=f191c725fae43cc4 NowTime=1530758669409
+TRACE[07-05|10:44:29] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:29] GotReply                                 ptype=2 FROM=f191c725fae43cc4 NowTime=1530758669412
+TRACE[07-05|10:44:29] << PONG/v4                               addr=192.168.3.100:30303 err=nil
+DEBUG[07-05|10:44:29] Revalidated node                         b=15 id=f191c725fae43cc4
+INFO [07-05|10:44:29] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758669729
+TRACE[07-05|10:44:29] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:29] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.123:54518
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.123:54519
+TRACE[07-05|10:44:29] Failed RLPx handshake                    addr=192.168.3.123:54519 conn=inbound err="ecies: invalid message"
+TRACE[07-05|10:44:29] Setting up connection failed             id=0000000000000000 err="ecies: invalid message"
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.123:54520
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.123:54521
+TRACE[07-05|10:44:29] New dial task                            task="discovery lookup"
+INFO [07-05|10:44:29] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758669735
+ERROR[07-05|10:44:29] 192.168.3.123:54518 
+ERROR[07-05|10:44:29] 4f554827437825cc08b52878acd807b5598d0ac88651522ffe7d66ccecde0cbd4c93e69fa3448107939118f8fc9d80ea2bfdb05a5b31863a3e6d4866eb8df6b8 
+DEBUG[07-05|10:44:29] Adding p2p peer                          name=Geth/MyNodeName/v1.8... addr=192.168.3.123:54518 peers=1
+TRACE[07-05|10:44:29] New dial task                            task="discovery lookup"
+INFO [07-05|10:44:29] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758669737
+TRACE[07-05|10:44:29] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:29] Rejected peer before protocol handshake  id=4f554827437825cc addr=192.168.3.123:54521 conn=inbound err="already connected"
+ERROR[07-05|10:44:29] success
+ 
+TRACE[07-05|10:44:29] Setting up connection failed             id=4f554827437825cc err="already connected"
+ERROR[07-05|10:44:29] startProtocols %+v
+                      LOG15_ERROR= LOG15_ERROR="Normalized odd number of arguments by adding nil"
+TRACE[07-05|10:44:29] Starting protocol eth/63 
+DEBUG[07-05|10:44:29] Ethereum peer connected                  name=Geth/MyNodeName/v1.8.11-unstable/windows-amd64/go1.10.2
+TRACE[07-05|10:44:29] connection set up                        id=4f554827437825cc addr=192.168.3.123:54518 conn=inbound inbound=true
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.123:54522
+TRACE[07-05|10:44:29] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:29] Registering sync peer                    peer=4f554827437825cc
+INFO [07-05|10:44:29] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758669740
+TRACE[07-05|10:44:29] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:29] Failed RLPx handshake                    addr=192.168.3.123:54520 conn=inbound err="ecies: invalid message"
+TRACE[07-05|10:44:29] Setting up connection failed             id=0000000000000000 err="ecies: invalid message"
+TRACE[07-05|10:44:29] Failed RLPx handshake                    addr=192.168.3.123:54522 conn=inbound err="ecies: invalid message"
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.123:54523
+TRACE[07-05|10:44:29] Setting up connection failed             id=0000000000000000 err="ecies: invalid message"
+TRACE[07-05|10:44:29] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.123:54524
+TRACE[07-05|10:44:29] Failed RLPx handshake                    addr=192.168.3.123:54524 conn=inbound err="ecies: invalid message"
+TRACE[07-05|10:44:29] Setting up connection failed             id=0000000000000000 err="ecies: invalid message"
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.123:54525
+TRACE[07-05|10:44:29] Failed RLPx handshake                    addr=192.168.3.123:54525 conn=inbound err="ecies: invalid message"
+TRACE[07-05|10:44:29] Setting up connection failed             id=0000000000000000 err="ecies: invalid message"
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.123:54528
+TRACE[07-05|10:44:29] Failed RLPx handshake                    addr=192.168.3.123:54528 conn=inbound err="ecies: invalid message"
+TRACE[07-05|10:44:29] Setting up connection failed             id=0000000000000000 err="ecies: invalid message"
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.123:54530
+TRACE[07-05|10:44:29] Failed RLPx handshake                    addr=192.168.3.123:54530 conn=inbound err="ecies: invalid message"
+TRACE[07-05|10:44:29] Setting up connection failed             id=0000000000000000 err="ecies: invalid message"
+TRACE[07-05|10:44:29] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:29] Rejected peer before protocol handshake  id=4f554827437825cc addr=192.168.3.123:54523 conn=inbound err="already connected"
+INFO [07-05|10:44:29] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758669747
+TRACE[07-05|10:44:29] Setting up connection failed             id=4f554827437825cc err="already connected"
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.123:54531
+TRACE[07-05|10:44:29] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:29] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:29] Failed RLPx handshake                    addr=192.168.3.123:54531 conn=inbound err="ecies: invalid message"
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.123:54533
+TRACE[07-05|10:44:29] Setting up connection failed             id=0000000000000000 err="ecies: invalid message"
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.100:49246
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.100:49248
+TRACE[07-05|10:44:29] Failed RLPx handshake                    addr=192.168.3.123:54533 conn=inbound err="ecies: invalid message"
+TRACE[07-05|10:44:29] Setting up connection failed             id=0000000000000000 err="ecies: invalid message"
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.123:54534
+TRACE[07-05|10:44:29] Failed RLPx handshake                    addr=192.168.3.123:54534 conn=inbound err="ecies: invalid message"
+TRACE[07-05|10:44:29] Setting up connection failed             id=0000000000000000 err="ecies: invalid message"
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.123:54535
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.100:49249
+TRACE[07-05|10:44:29] Failed RLPx handshake                    addr=192.168.3.123:54535 conn=inbound err="ecies: invalid message"
+TRACE[07-05|10:44:29] Setting up connection failed             id=0000000000000000 err="ecies: invalid message"
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.123:54536
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.100:49250
+TRACE[07-05|10:44:29] New dial task                            task="discovery lookup"
+INFO [07-05|10:44:29] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758669758
+TRACE[07-05|10:44:29] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:29] Failed RLPx handshake                    addr=192.168.3.123:54536 conn=inbound err="ecies: invalid message"
+TRACE[07-05|10:44:29] Setting up connection failed             id=0000000000000000 err="ecies: invalid message"
+TRACE[07-05|10:44:29] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:29] New dial task                            task="discovery lookup"
+ERROR[07-05|10:44:29] 192.168.3.100:49248 
+ERROR[07-05|10:44:29] f191c725fae43cc4a12674b53405de25c8f6ab54098a0caeef2c855a1aff8f05a5e9390efd11d316d5d25e375c2898782aab305572807a08284132b65a53a1c4 
+DEBUG[07-05|10:44:29] Adding p2p peer                          name=Geth/MyNodeName/v1.8...                                 addr=192.168.3.100:49248 peers=2
+ERROR[07-05|10:44:29] success
+ 
+ERROR[07-05|10:44:29] startProtocols %+v
+                      LOG15_ERROR=                                                   LOG15_ERROR="Normalized odd number of arguments by adding nil"
+TRACE[07-05|10:44:29] Starting protocol eth/63 
+DEBUG[07-05|10:44:29] Ethereum peer connected                  name=Geth/MyNodeName/v1.8.11-unstable/windows-amd64/go1.10.2
+TRACE[07-05|10:44:29] connection set up                        id=f191c725fae43cc4 addr=192.168.3.100:49248 conn=inbound inbound=true
+TRACE[07-05|10:44:29] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:29] Registering sync peer                    peer=f191c725fae43cc4
+DEBUG[07-05|10:44:29] Relaxed downloader QoS values            rtt=20s confidence=0.500 ttl=1m0s
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.100:49251
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.123:54537
+TRACE[07-05|10:44:29] Failed RLPx handshake                    addr=192.168.3.123:54537 conn=inbound err="ecies: invalid message"
+TRACE[07-05|10:44:29] Setting up connection failed             id=0000000000000000 err="ecies: invalid message"
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.100:49252
+TRACE[07-05|10:44:29] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:29] Rejected peer before protocol handshake  id=f191c725fae43cc4 addr=192.168.3.100:49249 conn=inbound err="already connected"
+TRACE[07-05|10:44:29] Setting up connection failed             id=f191c725fae43cc4 err="already connected"
+TRACE[07-05|10:44:29] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:29] Rejected peer before protocol handshake  id=f191c725fae43cc4 addr=192.168.3.100:49252 conn=inbound err="already connected"
+TRACE[07-05|10:44:29] Failed proto handshake                   id=f191c725fae43cc4 addr=192.168.3.100:49250 conn=inbound err="read tcp 192.168.3.98:30303->192.168.3.100:49250: wsarecv: An existing connection was forcibly closed by the remote host."
+TRACE[07-05|10:44:29] Setting up connection failed             id=f191c725fae43cc4 err="already connected"
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.100:49253
+TRACE[07-05|10:44:29] Rejected peer before protocol handshake  id=f191c725fae43cc4 addr=192.168.3.100:49251 conn=inbound err="already connected"
+TRACE[07-05|10:44:29] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:29] Failed proto handshake                   id=f191c725fae43cc4 addr=192.168.3.100:49246 conn=inbound err="read tcp 192.168.3.98:30303->192.168.3.100:49246: wsarecv: An existing connection was forcibly closed by the remote host."
+TRACE[07-05|10:44:29] Setting up connection failed             id=f191c725fae43cc4 err="read tcp 192.168.3.98:30303->192.168.3.100:49246: wsarecv: An existing connection was forcibly closed by the remote host."
+TRACE[07-05|10:44:29] Setting up connection failed             id=f191c725fae43cc4 err="read tcp 192.168.3.98:30303->192.168.3.100:49250: wsarecv: An existing connection was forcibly closed by the remote host."
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.100:49254
+TRACE[07-05|10:44:29] Setting up connection failed             id=f191c725fae43cc4 err="already connected"
+TRACE[07-05|10:44:29] Accepted connection                      addr=192.168.3.123:54538
+TRACE[07-05|10:44:29] Failed RLPx handshake                    addr=192.168.3.123:54538 conn=inbound err="ecies: invalid message"
+TRACE[07-05|10:44:29] Setting up connection failed             id=0000000000000000 err="ecies: invalid message"
+TRACE[07-05|10:44:29] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:29] Rejected peer before protocol handshake  id=f191c725fae43cc4 addr=192.168.3.100:49254 conn=inbound err="already connected"
+TRACE[07-05|10:44:29] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:29] Rejected peer before protocol handshake  id=f191c725fae43cc4 addr=192.168.3.100:49253 conn=inbound err="already connected"
+TRACE[07-05|10:44:29] Setting up connection failed             id=f191c725fae43cc4 err="already connected"
+TRACE[07-05|10:44:29] Setting up connection failed             id=f191c725fae43cc4 err="already connected"
+INFO [07-05|10:44:29] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:29] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:29] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:29] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:29] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:30] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758670230
+TRACE[07-05|10:44:30] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:30] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:30] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=1
+INFO [07-05|10:44:30] WritePingTime                            TO=fc406ef44ba4b638 NowTime=1530758670237
+INFO [07-05|10:44:30] WritePingTime                            TO=bcd88428d6dc0d15 NowTime=1530758670237
+INFO [07-05|10:44:30] WritePingTime                            TO=4f554827437825cc NowTime=1530758670237
+INFO [07-05|10:44:30] WritePingTime                            TO=4d0df50899bc6f3c NowTime=1530758670238
+INFO [07-05|10:44:30] WritePingTime                            TO=1f393dc4d8178440 NowTime=1530758670238
+TRACE[07-05|10:44:30] >> PING/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:30] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:30] >> PING/v4                               addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:30] >> PING/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:30] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:30] WritePingTime                            TO=14055bc410ec7242 NowTime=1530758670239
+TRACE[07-05|10:44:30] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=1
+INFO [07-05|10:44:30] sengPongTime                             to=23a28908c19a41b1    nowTime=1530758670239
+TRACE[07-05|10:44:30] >> PING/v4                               addr=192.168.3.109:30303 err=nil
+TRACE[07-05|10:44:30] >> PONG/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:30] << PING/v4                               addr=192.168.3.98:30303  err=nil
+INFO [07-05|10:44:30] sengPongTime                             to=23a28908c19a41b1    nowTime=1530758670240
+TRACE[07-05|10:44:30] >> PONG/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:30] << PING/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:30] << PONG/v4                               addr=192.168.3.98:30303  err="unsolicited reply"
+TRACE[07-05|10:44:30] << PONG/v4                               addr=192.168.3.100:30303 err="unsolicited reply"
+INFO [07-05|10:44:30] GotReply                                 ptype=2 FROM=4f554827437825cc NowTime=1530758670243
+TRACE[07-05|10:44:30] << PONG/v4                               addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:30] << PONG/v4                               addr=192.168.3.98:30303  err="unsolicited reply"
+TRACE[07-05|10:44:30] << PONG/v4                               addr=192.168.3.100:30303 err="unsolicited reply"
+INFO [07-05|10:44:30] sengPongTime                             to=f191c725fae43cc4    nowTime=1530758670249
+TRACE[07-05|10:44:30] >> PONG/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:30] << PING/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:30] WritePingTime                            TO=f191c725fae43cc4 NowTime=1530758670251
+INFO [07-05|10:44:30] sengPongTime                             to=f191c725fae43cc4    nowTime=1530758670251
+TRACE[07-05|10:44:30] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:30] >> PONG/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:30] << PING/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:30] sengPongTime                             to=f191c725fae43cc4    nowTime=1530758670252
+TRACE[07-05|10:44:30] >> PONG/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:30] << PING/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:30] GotReply                                 ptype=2 FROM=f191c725fae43cc4 NowTime=1530758670257
+TRACE[07-05|10:44:30] << PONG/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:30] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758670736
+INFO [07-05|10:44:30] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:30] pingpong                                 ping err="RPC timeout"
+TRACE[07-05|10:44:30] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:30] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:30] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:30] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:30] pingpong                                 ping err="RPC timeout"
+TRACE[07-05|10:44:30] Dial task done                           task="discovery lookup (3 results)"
+TRACE[07-05|10:44:30] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:30] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:30] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:31] Accepted connection                      addr=192.168.3.123:54539
+TRACE[07-05|10:44:31] Failed RLPx handshake                    addr=192.168.3.123:54539 conn=inbound err="ecies: invalid message"
+TRACE[07-05|10:44:31] Setting up connection failed             id=0000000000000000 err="ecies: invalid message"
+DEBUG[07-05|10:44:32] FS scan times                            list=0s  set=0s diff=0s
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673733
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673734
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673736
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758673736
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758673736
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758673736
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758673737
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758673737
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673738
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758673737
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758673738
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758673738
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758673738
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758673740
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758673738
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758673740
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758673738
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758673740
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673739
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758673741
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758673742
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673742
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758673743
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758673743
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673743
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758673744
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758673744
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673745
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758673745
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758673745
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758673746
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758673746
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673747
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758673747
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758673747
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673748
+TRACE[07-05|10:44:33] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673749
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673751
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673752
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673753
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673754
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673756
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673757
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673759
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673760
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758673761
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758673762
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673764
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673764
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673764
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673764
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673764
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673764
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673764
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673764
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673764
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673765
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673765
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673765
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673765
+TRACE[07-05|10:44:33] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758673765
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758673766
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758673767
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758673768
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758673769
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758673770
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758673770
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758673771
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758673772
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673773
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673773
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673773
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673773
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673773
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673773
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673773
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673773
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673773
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673773
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673773
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673773
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673774
+TRACE[07-05|10:44:33] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758673774
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758673775
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758673776
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758673777
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758673777
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673778
+TRACE[07-05|10:44:33] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengPongTime                             to=4f554827437825cc    nowTime=1530758673779
+INFO [07-05|10:44:33] WritePingTime                            TO=bcd88428d6dc0d15 NowTime=1530758673779
+TRACE[07-05|10:44:33] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] >> PONG/v4                               addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << PING/v4                               addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] WritePingTime                            TO=fc406ef44ba4b638 NowTime=1530758673779
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673780
+TRACE[07-05|10:44:33] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] WritePingTime                            TO=1f393dc4d8178440 NowTime=1530758673780
+INFO [07-05|10:44:33] WritePingTime                            TO=14055bc410ec7242 NowTime=1530758673780
+TRACE[07-05|10:44:33] >> PING/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:33] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] >> PING/v4                               addr=192.168.3.109:30303 err=nil
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673781
+TRACE[07-05|10:44:33] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673781
+TRACE[07-05|10:44:33] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673782
+TRACE[07-05|10:44:33] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673783
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673783
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673783
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673783
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673783
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673783
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673783
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673783
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673783
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673783
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673783
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673783
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673783
+TRACE[07-05|10:44:33] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673784
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673784
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673784
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673784
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673784
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673784
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673784
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673784
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673784
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673784
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673784
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673784
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673784
+TRACE[07-05|10:44:33] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673785
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673785
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673785
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673785
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673785
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673785
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673785
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673785
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673785
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673785
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673785
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673785
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673785
+TRACE[07-05|10:44:33] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673786
+TRACE[07-05|10:44:33] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673787
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673787
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673787
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673787
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673787
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673787
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673787
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673787
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673787
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673787
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673787
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673787
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673787
+TRACE[07-05|10:44:33] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673788
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673788
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673788
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673788
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673788
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673788
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673788
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673788
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673788
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673788
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673788
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673788
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673788
+TRACE[07-05|10:44:33] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673789
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673789
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673789
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673789
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673789
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673789
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673789
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673789
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673789
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673789
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673789
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673789
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758673789
+TRACE[07-05|10:44:33] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673790
+TRACE[07-05|10:44:33] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673791
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673791
+TRACE[07-05|10:44:33] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758673792
+TRACE[07-05|10:44:33] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengPongTime                             to=23a28908c19a41b1    nowTime=1530758673793
+TRACE[07-05|10:44:33] >> PONG/v4                               addr=192.168.3.98:30303  err=nil
+TRACE[07-05|10:44:33] << PING/v4                               addr=192.168.3.98:30303  err=nil
+INFO [07-05|10:44:33] sengPongTime                             to=f191c725fae43cc4    nowTime=1530758673793
+TRACE[07-05|10:44:33] >> PONG/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:33] << PONG/v4                               addr=192.168.3.100:30303 err="unsolicited reply"
+TRACE[07-05|10:44:33] << PONG/v4                               addr=192.168.3.100:30303 err="unsolicited reply"
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673795
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:33] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758673796
+TRACE[07-05|10:44:33] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:33] << PONG/v4                               addr=192.168.3.98:30303  err="unsolicited reply"
+TRACE[07-05|10:44:34] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=1
+TRACE[07-05|10:44:34] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=2
+TRACE[07-05|10:44:34] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=2
+TRACE[07-05|10:44:34] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=3
+INFO [07-05|10:44:34] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758674238
+TRACE[07-05|10:44:34] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=4
+TRACE[07-05|10:44:34] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=5
+TRACE[07-05|10:44:34] Too many findnode failures, dropping     id=f191c725fae43cc4 failcount=5
+TRACE[07-05|10:44:34] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:34] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:34] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=6
+TRACE[07-05|10:44:34] Too many findnode failures, dropping     id=f191c725fae43cc4 failcount=6
+TRACE[07-05|10:44:34] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=7
+TRACE[07-05|10:44:34] Too many findnode failures, dropping     id=f191c725fae43cc4 failcount=7
+INFO [07-05|10:44:34] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758674240
+TRACE[07-05|10:44:34] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:34] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:34] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758674241
+TRACE[07-05|10:44:34] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:34] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:34] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758674242
+TRACE[07-05|10:44:34] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:34] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:34] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758674244
+TRACE[07-05|10:44:34] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=9
+TRACE[07-05|10:44:34] Too many findnode failures, dropping     id=f191c725fae43cc4 failcount=9
+TRACE[07-05|10:44:34] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=8
+TRACE[07-05|10:44:34] Too many findnode failures, dropping     id=f191c725fae43cc4 failcount=8
+TRACE[07-05|10:44:34] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:34] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:34] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=1
+INFO [07-05|10:44:34] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758674245
+INFO [07-05|10:44:34] WritePingTime                            TO=4f554827437825cc NowTime=1530758674245
+TRACE[07-05|10:44:34] >> PING/v4                               addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:34] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:34] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:34] WritePingTime                            TO=f191c725fae43cc4 NowTime=1530758674246
+TRACE[07-05|10:44:34] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:34] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758674246
+TRACE[07-05|10:44:34] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=10
+TRACE[07-05|10:44:34] Too many findnode failures, dropping     id=f191c725fae43cc4 failcount=10
+TRACE[07-05|10:44:34] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=2
+TRACE[07-05|10:44:34] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=11
+TRACE[07-05|10:44:34] Too many findnode failures, dropping     id=f191c725fae43cc4 failcount=11
+TRACE[07-05|10:44:34] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:34] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:34] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=3
+TRACE[07-05|10:44:34] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=4
+TRACE[07-05|10:44:34] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=12
+TRACE[07-05|10:44:34] Too many findnode failures, dropping     id=f191c725fae43cc4 failcount=12
+INFO [07-05|10:44:34] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758674248
+TRACE[07-05|10:44:34] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:34] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:34] sengPongTime                             to=f191c725fae43cc4    nowTime=1530758674254
+TRACE[07-05|10:44:34] >> PONG/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:34] << PING/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:34] GotReply                                 ptype=2 FROM=4f554827437825cc NowTime=1530758674259
+TRACE[07-05|10:44:34] << PONG/v4                               addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:34] GotReply                                 ptype=2 FROM=f191c725fae43cc4 NowTime=1530758674260
+TRACE[07-05|10:44:34] << PONG/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:34] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758674264
+TRACE[07-05|10:44:34] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:34] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:34] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758674266
+TRACE[07-05|10:44:34] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:34] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:34] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:34] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:34] pingpong                                 ping err="RPC timeout"
+INFO [07-05|10:44:34] pingpong                                 ping err="RPC timeout"
+TRACE[07-05|10:44:34] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:34] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:34] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:34] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:34] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:34] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:34] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:34] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:34] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:34] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:34] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:34] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:34] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:34] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:34] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:34] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:34] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:34] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:34] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:34] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:34] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:34] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:34] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:34] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:34] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:34] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:34] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:34] Dial task done                           task="discovery lookup (4 results)"
+TRACE[07-05|10:44:34] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:34] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:34] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:34] Dial task done                           task="discovery lookup (4 results)"
+TRACE[07-05|10:44:34] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:34] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:34] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:34] Dial task done                           task="discovery lookup (4 results)"
+TRACE[07-05|10:44:34] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:34] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:34] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:34] Dial task done                           task="discovery lookup (4 results)"
+TRACE[07-05|10:44:34] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:34] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:34] New dial task                            task="discovery lookup"
+DEBUG[07-05|10:44:35] FS scan times                            list=0s  set=0s diff=0s
+INFO [07-05|10:44:35] WritePingTime                            TO=4f554827437825cc NowTime=1530758675317
+TRACE[07-05|10:44:35] >> PING/v4                               addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:35] GotReply                                 ptype=2 FROM=4f554827437825cc NowTime=1530758675320
+TRACE[07-05|10:44:35] << PONG/v4                               addr=192.168.3.123:30303 err=nil
+DEBUG[07-05|10:44:35] Revalidated node                         b=15 id=4f554827437825cc
+INFO [07-05|10:44:35] sengPongTime                             to=4f554827437825cc    nowTime=1530758675321
+TRACE[07-05|10:44:35] >> PONG/v4                               addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:35] << PING/v4                               addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:36] sengPongTime                             to=4f554827437825cc    nowTime=1530758676834
+TRACE[07-05|10:44:36] >> PONG/v4                               addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:36] << PING/v4                               addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758677735
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758677737
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758677738
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758677739
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758677741
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758677742
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758677744
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758677745
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758677746
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758677747
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758677747
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758677747
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758677748
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758677748
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758677748
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758677749
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758677749
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758677749
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758677750
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758677750
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758677750
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758677751
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758677751
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758677752
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758677752
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758677753
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758677753
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758677753
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758677754
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758677754
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758677754
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758677755
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758677755
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758677755
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758677755
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758677755
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758677756
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758677756
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758677756
+INFO [07-05|10:44:37] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758677757
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758677758
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758677759
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677761
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677761
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677761
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677761
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677761
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677761
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677761
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677761
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677761
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677761
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677761
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677761
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677761
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677762
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677762
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677762
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677763
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677763
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677763
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677763
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677763
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677763
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677763
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677763
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677763
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677763
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677764
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677764
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677764
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677764
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677764
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677764
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677764
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677764
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677764
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677765
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677765
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677765
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677765
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677766
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677766
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677766
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677766
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677766
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677766
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677766
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677766
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677766
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677766
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677766
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677766
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677766
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758677767
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677769
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677769
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677769
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677769
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677769
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677769
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677769
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677769
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677769
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677769
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677769
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677769
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677769
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758677770
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677771
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677771
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677771
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677771
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677772
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677772
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677772
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677772
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677772
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677772
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677772
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677772
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677772
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758677773
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758677774
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677775
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677775
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677776
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677776
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677776
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677776
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677776
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677776
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677776
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677776
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677776
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677776
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677776
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758677777
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677778
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758677779
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758677781
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758677782
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758677783
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758677784
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758677786
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758677787
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758677788
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677789
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758677790
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758677791
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758677793
+TRACE[07-05|10:44:37] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:37] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677794
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677795
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677796
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758677797
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677798
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677798
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677798
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677798
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677798
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677798
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677798
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677798
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677798
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677798
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677798
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677798
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677799
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677799
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677799
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677800
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677800
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677800
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677800
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677800
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677800
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677800
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677800
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677800
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677800
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677800
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677801
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677801
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677801
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677801
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677802
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677802
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677802
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677802
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677802
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677802
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677802
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677802
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677802
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677803
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677803
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677803
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677803
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677803
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677803
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677803
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677804
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677804
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677804
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677804
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677804
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677804
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677805
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677805
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677805
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677805
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677805
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677805
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677805
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677805
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677805
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677805
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677806
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677806
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677806
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677807
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:37] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:37] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:37] New dial task                            task="discovery lookup"
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677808
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:37] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:37] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:37] New dial task                            task="discovery lookup"
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677809
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:37] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:37] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:37] New dial task                            task="discovery lookup"
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677810
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:37] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:37] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:37] New dial task                            task="discovery lookup"
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677811
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:37] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:37] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:37] New dial task                            task="discovery lookup"
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677812
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:37] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:37] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:37] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:37] New dial task                            task="discovery lookup"
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677813
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:37] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758677814
+TRACE[07-05|10:44:37] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+DEBUG[07-05|10:44:38] FS scan times                            list=0s  set=0s diff=0s
+INFO [07-05|10:44:38] sengPongTime                             to=4f554827437825cc    nowTime=1530758678239
+TRACE[07-05|10:44:38] >> PONG/v4                               addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:38] << PING/v4                               addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:38] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=1
+TRACE[07-05|10:44:38] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:38] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:38] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:38] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:38] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=2
+TRACE[07-05|10:44:38] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=1
+TRACE[07-05|10:44:38] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=3
+INFO [07-05|10:44:38] WritePingTime                            TO=4f554827437825cc NowTime=1530758678254
+INFO [07-05|10:44:38] WritePingTime                            TO=f191c725fae43cc4 NowTime=1530758678255
+TRACE[07-05|10:44:38] >> PING/v4                               addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:38] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=2
+TRACE[07-05|10:44:38] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:38] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=4
+TRACE[07-05|10:44:38] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=3
+TRACE[07-05|10:44:38] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=5
+TRACE[07-05|10:44:38] Too many findnode failures, dropping     id=f191c725fae43cc4 failcount=5
+TRACE[07-05|10:44:38] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=4
+TRACE[07-05|10:44:38] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=6
+TRACE[07-05|10:44:38] Too many findnode failures, dropping     id=f191c725fae43cc4 failcount=6
+TRACE[07-05|10:44:38] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=7
+TRACE[07-05|10:44:38] Too many findnode failures, dropping     id=f191c725fae43cc4 failcount=7
+TRACE[07-05|10:44:38] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=5
+TRACE[07-05|10:44:38] Too many findnode failures, dropping     id=4f554827437825cc failcount=5
+INFO [07-05|10:44:38] GotReply                                 ptype=2 FROM=f191c725fae43cc4 NowTime=1530758678257
+TRACE[07-05|10:44:38] << PONG/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:38] GotReply                                 ptype=2 FROM=4f554827437825cc NowTime=1530758678258
+TRACE[07-05|10:44:38] << PONG/v4                               addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:38] sengPongTime                             to=f191c725fae43cc4    nowTime=1530758678259
+TRACE[07-05|10:44:38] >> PONG/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:38] GotReply                                 ptype=1 FROM=f191c725fae43cc4 NowTime=1530758678260
+TRACE[07-05|10:44:38] << PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:38] Dial task done                           task="discovery lookup (4 results)"
+TRACE[07-05|10:44:38] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:38] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:38] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:38] Dial task done                           task="discovery lookup (3 results)"
+TRACE[07-05|10:44:38] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:38] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:38] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:38] Dial task done                           task="discovery lookup (4 results)"
+TRACE[07-05|10:44:38] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:38] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:38] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:38] Dial task done                           task="discovery lookup (4 results)"
+TRACE[07-05|10:44:38] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:38] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:38] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:38] Dial task done                           task="discovery lookup (4 results)"
+TRACE[07-05|10:44:38] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:38] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:38] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:38] Dial task done                           task="discovery lookup (4 results)"
+TRACE[07-05|10:44:38] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:38] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:38] New dial task                            task="discovery lookup"
+INFO [07-05|10:44:39] sengPongTime                             to=f191c725fae43cc4    nowTime=1530758679811
+TRACE[07-05|10:44:39] >> PONG/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:39] << PING/v4                               addr=192.168.3.100:30303 err=nil
+DEBUG[07-05|10:44:41] FS scan times                            list=0s  set=0s diff=0s
+INFO [07-05|10:44:41] WritePingTime                            TO=f191c725fae43cc4 NowTime=1530758681220
+TRACE[07-05|10:44:41] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=2 FROM=f191c725fae43cc4 NowTime=1530758681223
+TRACE[07-05|10:44:41] << PONG/v4                               addr=192.168.3.100:30303 err=nil
+DEBUG[07-05|10:44:41] Revalidated node                         b=15 id=f191c725fae43cc4
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758681730
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758681732
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758681734
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758681735
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758681736
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758681738
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758681739
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758681740
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758681741
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758681743
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758681744
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758681745
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758681746
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758681747
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758681749
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.123:30303 nowTime=1530758681750
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758681756
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758681756
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758681757
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758681757
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758681757
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758681757
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758681757
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758681758
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758681758
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758681758
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758681758
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758681758
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758681759
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758681759
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758681759
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758681759
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758681760
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758681760
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758681760
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758681761
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758681761
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=f191c725fae43cc4 NowTime=1530758681761
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758681761
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758681761
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758681761
+INFO [07-05|10:44:41] WriteFindNodeTime                        TO=4f554827437825cc NowTime=1530758681762
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758681765
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] >> FINDNODE/v4                           addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758681768
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681769
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681769
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681769
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681769
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681769
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681770
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681770
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681770
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681770
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681770
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681770
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681770
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681770
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758681771
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758681772
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758681773
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758681775
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758681776
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758681777
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758681779
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758681780
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758681781
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681782
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681783
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681783
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681783
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681783
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681783
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681783
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681783
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681783
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681783
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681783
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681783
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681783
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758681784
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758681785
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681791
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681792
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681792
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681792
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681792
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681792
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681792
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681792
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681792
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681792
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681792
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681792
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681792
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758681793
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758681795
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] sengneighborsTime                        to=192.168.3.100:30303 nowTime=1530758681796
+TRACE[07-05|10:44:41] >> NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:41] << FINDNODE/v4                           addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681798
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681798
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681798
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681798
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681798
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681798
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681798
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681798
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681798
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681798
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681798
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681798
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681798
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681799
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681799
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681799
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681799
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681799
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681799
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681800
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681800
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681800
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681800
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681800
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681800
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681800
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681801
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681801
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681801
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681801
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681801
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681801
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681801
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681801
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681801
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681801
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681801
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681801
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681801
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681802
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681802
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681803
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681803
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681803
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681803
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681803
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681803
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681803
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681803
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681803
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681803
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681803
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681804
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681805
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681806
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681807
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681808
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=f191c725fae43cc4 NowTime=1530758681808
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681809
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681809
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681810
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681810
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681810
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681810
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681810
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681810
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681810
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681810
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681810
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681810
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681810
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681811
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681811
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681811
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681812
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681812
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681812
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681812
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681812
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681812
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681812
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681812
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681812
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681812
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681813
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681813
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681813
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681813
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681813
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681813
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681813
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681814
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681814
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681814
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681814
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681814
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681814
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681815
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681815
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681815
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681815
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681815
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681815
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681815
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681815
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681816
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681816
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681816
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681816
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681816
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681817
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681817
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681817
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681817
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681817
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681817
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681817
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681817
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681817
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681817
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681818
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681818
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681818
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681819
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:41] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:41] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:41] New dial task                            task="discovery lookup"
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681819
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:41] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:41] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:41] New dial task                            task="discovery lookup"
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681820
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:41] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:41] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:41] New dial task                            task="discovery lookup"
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681821
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:41] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:41] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:41] New dial task                            task="discovery lookup"
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681822
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:41] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:41] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:41] New dial task                            task="discovery lookup"
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681823
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:41] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:41] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:41] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:41] New dial task                            task="discovery lookup"
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681824
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:41] GotReply                                 ptype=4 FROM=4f554827437825cc NowTime=1530758681825
+TRACE[07-05|10:44:41] << NEIGHBORS/v4                          addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:42] sengPongTime                             to=4f554827437825cc    nowTime=1530758682232
+TRACE[07-05|10:44:42] >> PONG/v4                               addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:42] << PING/v4                               addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:42] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=1
+TRACE[07-05|10:44:42] Dial task done                           task="discovery lookup (2 results)"
+TRACE[07-05|10:44:42] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:42] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:42] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=1
+TRACE[07-05|10:44:42] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:42] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=3
+TRACE[07-05|10:44:42] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=2
+INFO [07-05|10:44:42] WritePingTime                            TO=f191c725fae43cc4 NowTime=1530758682257
+TRACE[07-05|10:44:42] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=2
+TRACE[07-05|10:44:42] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=4
+INFO [07-05|10:44:42] WritePingTime                            TO=4f554827437825cc NowTime=1530758682258
+TRACE[07-05|10:44:42] >> PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:42] >> PING/v4                               addr=192.168.3.123:30303 err=nil
+TRACE[07-05|10:44:42] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=3
+TRACE[07-05|10:44:42] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=5
+TRACE[07-05|10:44:42] Too many findnode failures, dropping     id=f191c725fae43cc4 failcount=5
+TRACE[07-05|10:44:42] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=6
+TRACE[07-05|10:44:42] Too many findnode failures, dropping     id=f191c725fae43cc4 failcount=6
+TRACE[07-05|10:44:42] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=4
+TRACE[07-05|10:44:42] Bumping findnode failure counter         id=4f554827437825cc ip:=192.168.3.123:30303 failcount=5
+TRACE[07-05|10:44:42] Too many findnode failures, dropping     id=4f554827437825cc failcount=5
+TRACE[07-05|10:44:42] Bumping findnode failure counter         id=f191c725fae43cc4 ip:=192.168.3.100:30303 failcount=7
+TRACE[07-05|10:44:42] Too many findnode failures, dropping     id=f191c725fae43cc4 failcount=7
+INFO [07-05|10:44:42] GotReply                                 ptype=2 FROM=f191c725fae43cc4 NowTime=1530758682260
+TRACE[07-05|10:44:42] << PONG/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:42] GotReply                                 ptype=2 FROM=4f554827437825cc NowTime=1530758682261
+TRACE[07-05|10:44:42] << PONG/v4                               addr=192.168.3.123:30303 err=nil
+INFO [07-05|10:44:42] sengPongTime                             to=f191c725fae43cc4    nowTime=1530758682266
+TRACE[07-05|10:44:42] >> PONG/v4                               addr=192.168.3.100:30303 err=nil
+INFO [07-05|10:44:42] GotReply                                 ptype=1 FROM=f191c725fae43cc4 NowTime=1530758682267
+TRACE[07-05|10:44:42] << PING/v4                               addr=192.168.3.100:30303 err=nil
+TRACE[07-05|10:44:42] Dial task done                           task="discovery lookup (3 results)"
+TRACE[07-05|10:44:42] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:42] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:42] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:42] Dial task done                           task="discovery lookup (4 results)"
+TRACE[07-05|10:44:42] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:42] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:42] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:42] Dial task done                           task="discovery lookup (4 results)"
+TRACE[07-05|10:44:42] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:42] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:42] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:42] Dial task done                           task="discovery lookup (4 results)"
+TRACE[07-05|10:44:42] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:42] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:42] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:42] Dial task done                           task="discovery lookup (4 results)"
+TRACE[07-05|10:44:42] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:42] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:42] New dial task                            task="discovery lookup"
+TRACE[07-05|10:44:42] Dial task done                           task="discovery lookup (4 results)"
+TRACE[07-05|10:44:42] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:42] Skipping dial candidate                  id=f191c725fae43cc4 addr=192.168.3.100:30303 err="already connected"
+TRACE[07-05|10:44:42] New dial task                            task="discovery lookup"
+DEBUG[07-05|10:44:43] Recalculated downloader QoS values       rtt=20s confidence=0.750 ttl=1m0s
+DEBUG[07-05|10:44:44] Ethereum message handling failed         err=EOF
+DEBUG[07-05|10:44:44] Removing Ethereum peer                   peer=f191c725fae43cc4
+TRACE[07-05|10:44:44] Unregistering sync peer                  peer=f191c725fae43cc4
+DEBUG[07-05|10:44:44] Removing p2p peer                        id=f191c725fae43cc4 conn=inbound duration=14.398s peers=1 req=true err="client quitting"
+TRACE[07-05|10:44:44] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:44] New dial task                            task="dyndial f191c725fae43cc4 192.168.3.100:30303"
+TRACE[07-05|10:44:44] New dial task                            task="discovery lookup"
+DEBUG[07-05|10:44:44] FS scan times                            list=0s  set=0s diff=0s
+TRACE[07-05|10:44:45] Dial error                               task="dyndial f191c725fae43cc4 192.168.3.100:30303" err="dial tcp 192.168.3.100:30303: connectex: No connection could be made because the target machine actively refused it."
+TRACE[07-05|10:44:45] Dial task done                           task="dyndial f191c725fae43cc4 192.168.3.100:30303"
+TRACE[07-05|10:44:45] Skipping dial candidate                  id=4f554827437825cc addr=192.168.3.123:30303 err="already connected"
+TRACE[07-05|10:44:45] New dial task                            task="dyndial f191c725fae43cc4 192.168.3.100:30303"
+TRACE[07-05|10:44:45] New dial task                            task="discovery lookup"
+INFO [07-05|10:44:45] Got interrupt, shutting down... 
+INFO [07-05|10:44:45] HTTP endpoint closed                     url=http://0.0.0.0:8545
+DEBUG[07-05|10:44:45] RPC Server shutdown initiatied 
+INFO [07-05|10:44:45] IPC endpoint closed                      endpoint=\\\\.\\pipe\\geth.ipc
+DEBUG[07-05|10:44:45] RPC Server shutdown initiatied 
+ERROR[07-05|10:44:45] Dangling trie nodes after full cleanup 
+INFO [07-05|10:44:45] Blockchain manager stopped 
+INFO [07-05|10:44:45] Stopping Ethereum protocol 
+DEBUG[07-05|10:44:45] Ethereum message handling failed         err=EOF
+DEBUG[07-05|10:44:45] Removing Ethereum peer                   peer=4f554827437825cc
+TRACE[07-05|10:44:45] Unregistering sync peer                  peer=4f554827437825cc
+INFO [07-05|10:44:45] Ethereum protocol stopped 
+INFO [07-05|10:44:45] Transaction pool stopped 
+DEBUG[07-05|10:44:45] Removing p2p peer                        id=4f554827437825cc conn=inbound duration=15.751s peers=0 req=false err="client quitting"
+INFO [07-05|10:44:45] Database closed                          database=D:\\blockchain\\chaindata\\geth\\chaindata
+DEBUG[07-05|10:44:45] Read error                               err="accept tcp [::]:30303: use of closed network connection"
+DEBUG[07-05|10:44:45] Deleting port mapping                    proto=tcp extport=30303 intport=30303 interface="UPnP or NAT-PMP"
+TRACE[07-05|10:44:45] P2P networking is spinning down 
+DEBUG[07-05|10:44:45] Deleting port mapping                    proto=udp extport=30303 intport=30303 interface="UPnP or NAT-PMP"
+DEBUG[07-05|10:44:45] UDP read error                           err="read udp 0.0.0.0:30303: use of closed network connection"
